@@ -4,3 +4,4 @@ mouse.py
 keyboard.py
 .pytest_cache
 .vscode
+venv/*

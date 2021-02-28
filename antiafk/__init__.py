@@ -15,7 +15,7 @@ import click, time, datetime
 @click.option('-s', '--stop', nargs=2, default=('1', 'Hour'), type=str, help='Set the stop timer for the program to trigger a StopExecution and exit. Default is set to: 1 Hour')  # Default: 1 hour
 def cli(key: str, interval: tuple, stop: tuple) -> None:
     """
-        Welcome to the Anti-AFK program. Where we say NO to being AFK and disconnected from our precious. Even for a moment, damnit. \n
+        Welcome to the Anti-AFK program. Where we say NO to being AFK and disconnected from our precious games. Even for a moment, damnit. \n
         The purpose of this program is to give you the option to choose a key that you want the program to execute periodically. \n
         You can also choose your own interval at which the key specified is pressed, which is set to 5 minutes by default. \n
         The -s / --stop agurment has been provided to you as an optional argument if you want the program to trigger a StopExecution, and exit automatically.
